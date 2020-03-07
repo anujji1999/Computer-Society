@@ -4,7 +4,7 @@
 - [Adding your solution to the repository by making A Pull Request](#Adding-your-solution-to-the-repository-by-making-A-Pull-Request)
 - [Updating your Pull Request](#updating-your-pull-request)
 - [Sample Code](#Sample-Code)
-- [How to write a Function in C++](How-to-write-a-Function-in-C++)
+- [How to write a Function in C++](#How-to-write-a-Function-in-C++)
 
 
 ## Adding your solution to the repository by making A Pull Request
@@ -33,7 +33,7 @@ Sometimes, Your pull request needs some modifications before merging it to the r
 3. Write your programs in the form of function(s)
 4. The program should in indented.
 5. You should push the solution to the mentioned file.
-Here's a [code](./Sample%20Code) you need to see before writing your code.
+Here's a [code](./SampleCode.cpp) you need to see before writing your code.
 
 ## How to write a Function in C++
 

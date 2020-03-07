@@ -16,7 +16,7 @@ You'll need a [GitHub account](https://github.com/join)!
 2. See the constraints, input and output formats of the problem and write your function accordingly. (Would help you to write a clean code.)
 3. Run your solution on local machines and check for some test cases.
 4. Click on __create new file__ in that folder only.
-5. Copy your code there and with SolutionByA.cpp [ A would be Your Name - Like SolutionByShoaib.cpp ]
+5. Copy your code there and with SolutionByA.cpp [ A would be Your Name - Like SolutionByAnuj.cpp ]
 6. After copying, click on __propose new file__.[ At the Bottom]
 7. Then You'd be redirected to new page, where you need to click on __create pull request__.
 8. Add your comments or anything you want to tell abour you solution.

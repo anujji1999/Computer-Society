@@ -10,7 +10,7 @@
 
 Functions Used : check_even_or_odd_without_mod(void)
                : final_check(void)
-  
+
 */
 
 #include <iostream>
@@ -22,28 +22,29 @@ using namespace std;
 void final_check (int n)
 {
     int even_array[5] = {0,2,4,6,8};
-    int odd_array[5] = {1,3,5,7,9}; 
+    int odd_array[5] = {1,3,5,7,9};
     int flag = 0;
-    
+
     for( int i =0 ; i<5 ; ++i )
     {
         if(n == even_array[i]){
             cout << "Output = EVEN" << endl;
-            exit(-1);
-        }  
+            break;
+        }
         else if(n == odd_array[i]){
             cout << "Output = ODD" << endl;
-            exit(-1);
+            break;
         }
-    }    
+    }
 }
 
 // function to process before checking
 void check_even_or_odd_without_mod (unsigned int n)
 {
-    
+
     if ( n<10 ){        // for numbers < 10
-        final_check(n);       
+        final_check(n);
+        return;
     }
 
     int last_digit = 0;

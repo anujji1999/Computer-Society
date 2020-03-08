@@ -13,8 +13,14 @@ int factorialUsingRecursion(int number)
 
 int main()
 {   int n;
-    cout<<"Enter n"<<endl;
+    cout<<"Enter number"<<endl;
     cin>>n;
-    cout<<"Factorial of "<<n<<":"<<factorialUsingRecursion(n)<<endl;
+    if(n<0)
+    {
+        cout<<"Enter positive number"<<endl;
+    }
+   else{ 
+       cout<<"Factorial of "<<n<<":"<<factorialUsingRecursion(n)<<endl;
+   }
     return 0;
 }

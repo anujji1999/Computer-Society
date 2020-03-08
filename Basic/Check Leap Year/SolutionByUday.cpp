@@ -13,9 +13,22 @@ int main()
     unsigned int year = 0;
     cout << "input = " ;
     cin >> year ;
-    if (year % 4 == 0)
-        cout << "output = yes" << endl;
+    if((year%4==0) && (year%100!=0))
+    {
+      cout<<"yes";
+    }
+    else if((year%100==0) && (year%400==0))
+    {
+      cout<<"Yes";
+    }
+    else if(year%400==0)
+    {
+      cout<<"Yes";
+    }
     else
-        cout << "output = no" << endl;
+    {
+      cout<<"No";
+    }
+	
 
 }

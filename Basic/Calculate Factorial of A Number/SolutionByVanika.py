@@ -6,7 +6,7 @@ Created on Sat Mar  7 22:29:00 2020
 """
 #factorial
 N = int(input("Enter number"))
+ans = 1
 for i in range(1,N+1):
-	if N>1:
-		i*=i-1
-print(i)
+	ans = ans * i;
+print(ans)

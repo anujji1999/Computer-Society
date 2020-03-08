@@ -4,17 +4,15 @@
   if no number is divisble then its prime
   else no
 Function Name : bool sieve_of_eratosthenes(unsigned int n) -- return type bool
-  
+
 */
-
-
 
 #include <iostream>
 
 using namespace std;
 
 bool sieve_of_eratosthenes(unsigned int n)
-{   
+{
     int i=2;
     while(i<=n/2){
         if (n%i==0){
@@ -32,19 +30,15 @@ int main()
     cin >> n;
     if(n<2){
         cout << "Number less than 2" <<endl;
-        exit(-1);
-    }
-    else if(n==2){
-        cout << "Output = Yes" <<endl;
-        exit(-1);
+        return 0;
     }
 
     bool answer = sieve_of_eratosthenes(n);
-    
-    if(answer)    
+
+    if(answer)
         cout << "Output = Yes" << endl;
     else
-        cout << "Output = No" << endl;   
+        cout << "Output = No" << endl;
 
 
 }

@@ -1,0 +1,46 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+
+//Program to check if it's palindrome or not by Archit Garg CSE 1st year
+
+
+string check_palindrome(string str){
+   bool check=true;
+    int start=0,end=str.size()-1;
+
+    while (start<end)
+    {
+        if(str.at(start)!=str.at(end))
+        {
+            check=false;
+            break;
+        }
+        start++; 
+        end--;
+    }
+    
+   if(check==true)
+   return "Yes";
+   else
+   return "No";
+   
+
+}
+
+
+int main()
+{
+    string str;
+
+
+    getline(cin,str);
+    cout<<check_palindrome(str);
+    
+   
+
+}
+
+
+      
+    

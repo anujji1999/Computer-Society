@@ -1,8 +1,8 @@
 
 #Program Description to find the sum of digits of a number
-#Function Name : reverse_of_a_number -- returning int
+#Function Name : sum_of_digits -- returning int
 
-def reverse_of_a_number(num): 
+def sum_of_digits(num): 
   
     sum = 0
   
@@ -15,4 +15,4 @@ def reverse_of_a_number(num):
   
 
 n = int(input("input = "))
-print("output = " + str(reverse_of_a_number(n))) 
+print("output = " + str(sum_of_digits(n))) 

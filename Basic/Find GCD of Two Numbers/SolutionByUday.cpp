@@ -8,7 +8,7 @@
 
 using namespace std;
 
-int gcd_of_two_numbers(int x, int y)
+int gcd_of_two_numbers(unsigned int x,unsigned int y)
 {
     int gcd =0;
     int big = (x>y)? y : x;

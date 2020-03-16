@@ -1,0 +1,15 @@
+#include<iostream.h>
+#include<conio.h>
+void main()
+{
+   int y;
+   cin>>y;
+   if(y%4==0)
+       cout<<"yes";
+   else if(y%100==0 && y%400==0)
+       cout<<"yes";
+   else if(y%400)
+       cout<<"yes";
+   else 
+       cout<<"no";
+}

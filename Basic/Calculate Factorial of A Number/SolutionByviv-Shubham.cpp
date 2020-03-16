@@ -16,12 +16,6 @@ int main()
     int n;
     cout<<"N = ";
     cin>>n;
-    if(n<0)
-    {
-        cout<<endl<<"Enter positive number"<<endl;
-
-    }
-    else
-        cout<<endl<<"Factorial of N = "<<factorial(n);
+    cout<<endl<<"Factorial of N = "<<factorial(n);
     return 0;
 }

@@ -48,6 +48,7 @@ int main()
         cin >> num;
         number_array[i] = num;
     }
-    largest_number_possible(number_array,size);      
+    largest_number_possible(number_array,size);
+    delete [] number_array;
     
 }

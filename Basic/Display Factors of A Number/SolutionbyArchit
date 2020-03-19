@@ -1,0 +1,39 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+
+//Program to prints all the factor of the number by Archit Garg CSE 1st year
+
+
+vector<int> print_factors(int n)
+{
+  vector<int> factors;
+
+  for(int i=1;i<=n;i++){
+    if(n%i==0){
+      
+      factors.push_back(i);
+          
+    }
+  } 
+  return factors;
+}
+
+
+int main()
+{
+    int n;
+    cin>>n;
+    vector<int> factors;
+
+    cout<<"N = "<<n<<endl<<"Output = ";
+
+      factors= print_factors(n);
+      for(int i=0;i<factors.size();i++){
+      cout<<factors[i];
+      if(i!=factors.size()-1)
+      cout<<", ";
+      
+    } 
+
+}

@@ -45,5 +45,7 @@ int main()
         cout << numarr[i] << " ";
     }
     cout << endl;
+    
+    delete [] numarr;
             
 }

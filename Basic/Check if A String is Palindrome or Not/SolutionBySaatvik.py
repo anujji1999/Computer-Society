@@ -5,7 +5,8 @@ def palindrome_check(text):
         print("Yes")
     else:
         print("No")
-#-----------------------#
-#Output :
+        
 palindrome_check("madam")
-Yes
+
+#Output:
+'Yes'

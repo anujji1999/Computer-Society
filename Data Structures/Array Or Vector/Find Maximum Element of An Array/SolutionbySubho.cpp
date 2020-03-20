@@ -25,5 +25,6 @@ int main()
         cin>>arr[i];
     }
     cout<<"Maximum element"<<" "<<maximum(arr,n)<<endl;
+    delete []arr;
     return 0;
 }

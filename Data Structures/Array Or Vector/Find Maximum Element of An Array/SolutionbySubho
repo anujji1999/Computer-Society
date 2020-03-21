@@ -5,14 +5,9 @@ int maximum(int*arr,int n){
     {
         return arr[0];
     }
-    int maxm=arr[0];
-int returnedMaximum =   maximum(arr+1,n-1);
-if(maxm<returnedMaximum){
-    return returnedMaximum;
-}
-else{
-    return  maxm;
-}
+    return max(arr[0],maximum(arr+1,n-1));
+  
+
 }
 int main()
 {

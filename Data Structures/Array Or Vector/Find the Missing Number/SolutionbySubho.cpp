@@ -25,5 +25,6 @@ int main()
         cin>>arr[i];
     }
     cout<<"Missing number"<<":"<<missingNumber(arr,n)<<endl;
+    delete[]arr;
     return 0;
 }

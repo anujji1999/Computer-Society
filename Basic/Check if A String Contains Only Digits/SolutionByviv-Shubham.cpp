@@ -2,9 +2,8 @@
 #include<string.h>
 using namespace std;
 bool check_if_string_only_contain_digits(string str)
-{int flag=0,len=0;
-len=str.size();
-    for(int i=0;i<len;i++)
+{int flag=0;
+    for(int i=0;str[i]!='\0';i++)
     {
     if(isdigit(str[i])==0)
     ++flag;

@@ -1,0 +1,5 @@
+# Python program to reverse a string
+
+g = input("Enter the string: ")
+s = g[::-1]
+print ("Reversed string :"+s)

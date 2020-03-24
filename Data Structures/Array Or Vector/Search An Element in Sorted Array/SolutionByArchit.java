@@ -1,7 +1,7 @@
 import java.util.Scanner;
 // program to find an element which is given to you by Archit garg CSE 1st year
 
-class main{
+class solution{
     static Scanner scn= new Scanner(System.in);
 
       public static int binarySearch(int arr[], int low, int high, int key) 

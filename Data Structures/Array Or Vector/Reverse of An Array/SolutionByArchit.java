@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class solution {
+public class main {
 
     // program to to reverse the original array by Archit garg CSE 1st year
     static Scanner scn= new Scanner(System.in);

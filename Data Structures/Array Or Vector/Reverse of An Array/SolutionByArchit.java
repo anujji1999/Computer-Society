@@ -36,8 +36,10 @@ public class solution{
 
     public static void main(String[] args) {
         /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+        System.out.println("enter size");
         int n =scn.nextInt();
         int[] arr= new int[n];
+         System.out.println("enter array");
         input(arr);
         reverse(arr,0);
         output(arr);

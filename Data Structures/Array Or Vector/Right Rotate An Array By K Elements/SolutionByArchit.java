@@ -1,7 +1,7 @@
 import java.util.Scanner;
 // program to right rotate the Array with K Elements by Archit garg CSE 1st year
 
-class main{
+class solution{
      static Scanner scn= new Scanner(System.in);
 
      public static void inn(int[] arr){

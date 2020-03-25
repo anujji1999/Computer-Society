@@ -1,0 +1,16 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int a=123456;
+    int sol=0;
+     while(a!=0)
+     {sol= sol+a%10;
+       a=a/10;
+     }
+     cout<<sol;
+
+    return 0;
+}

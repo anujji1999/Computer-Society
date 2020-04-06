@@ -1,0 +1,19 @@
+#include<iostream.h>
+#include<conio.h>
+void main()
+{
+    char ch;
+    cin>>ch;
+    if(isalpha(ch))
+    {
+   
+        if((ch=="a") || (ch=='i') || (ch=='e') || (ch=='o') || (ch=='u'))
+            cout<<"\n It is a vowel";
+        else if((ch=="A") || (ch=='I') || (ch=='E') || (ch=='O') || (ch=='U'))
+            cout<<"\n It is a vowel";
+        else 
+            cout<<"\n It is a consonant";
+     }
+     else
+         cout<<"\n enter an alphabet";
+}

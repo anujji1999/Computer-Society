@@ -1,0 +1,70 @@
+#include <iostream>
+
+using namespace std;
+
+class Complex
+{
+    private:
+      double real;
+      double imaginary;
+    public:
+      Complex(){}
+      Complex(int r,int i)
+      {
+          real=r;
+          imaginary=i;
+      }
+      
+      void display()
+      {
+          if(imaginary>0)
+          cout<<real<<"+"<<imaginary<<"i"<<endl;
+          else if(imaginary<0)
+          cout<<real<<imaginary<<"i"<<endl;
+      }
+      
+      Complex operator+(Complex c1)
+      {
+          Complex c;
+          c.real=c1.real+real;
+          c.imaginary=c1.imaginary+imaginary;
+          return c;
+      }
+      Complex operator-(Complex c1)
+      {
+          Complex c;
+          c.real=real-c1.real;
+          c.imaginary=imaginary-c1.imaginary;
+          return c;
+      }
+      Complex operator*(Complex c1)
+      {
+          Complex c;
+          c.real=c1.real*real;
+          c.imaginary=c1.imaginary*imaginary;
+          return c;
+      }
+      
+   
+};
+
+
+int main()
+{
+   Complex c1(23,2),c2(-15,4),c3;
+   cout<<"The first complex number is: ";
+   c1.display();
+   cout<<"The second complex number is: ";
+   c2.display();
+   c3=c1+c2;
+   cout<<"Sum of the two complex numbers is: ";
+   c3.display();
+   c3=c1-c2;
+   cout<<"Difference of the two complex numbers is: ";
+   c3.display();
+   c3=c1*c2;
+   cout<<"Product of the two complex numbers is: ";
+   c3.display();
+   return 0;
+        
+}  
